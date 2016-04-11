@@ -510,10 +510,18 @@ a.article-title:hover,
   padding: 10px 0;
 }
 .article-entry blockquote {
-  font-family: 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
-  font-size: 1.4em;
+  font-family: Georgia, "Times New Roman", Times, "KaiTi", serif;
+  font-size: 1em;
   margin: 1.4em 20px;
-  text-align: center;
+  text-align: left;
+  background-color: #f6f6f6;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 1em 0 1em 0;
+  padding: 0.2em 0 0.2em 0.5em;
+  border-left: #4a4a4a 0.4em solid;
 }
 .article-entry blockquote footer {
   font-size: 16px;
